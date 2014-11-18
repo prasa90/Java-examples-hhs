@@ -1,0 +1,76 @@
+<AfasGetConnector>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="AfasGetConnector">
+<xs:complexType>
+<xs:choice maxOccurs="unbounded">
+<xs:element name="DIBIS_Organisaties">
+<xs:complexType>
+<xs:sequence>
+  <xs:element name="Organisatie_persoon_intern_nr" type="xs:long" minOccurs="0" /> 
+  <xs:element name="Nummer" type="xs:string" minOccurs="0" /> 
+  <xs:element name="Verkooprelatie_nummer" type="xs:string" minOccurs="0" /> 
+  <xs:element name="Medewerker_Naam" type="xs:string" minOccurs="0" /> 
+  <xs:element name="Naam" type="xs:string" minOccurs="0" /> 
+  <xs:element name="Telefoonnr_werk" type="xs:string" minOccurs="0" /> 
+  <xs:element name="E-mail_werk" type="xs:string" minOccurs="0" /> 
+  <xs:element name="Homepage" type="xs:string" minOccurs="0" /> 
+  <xs:element name="Fax_werk" type="xs:string" minOccurs="0" /> 
+  <xs:element name="KvK-nummer" type="xs:string" minOccurs="0" /> 
+  <xs:element name="Status_bewaking" type="xs:string" minOccurs="0" /> 
+  <xs:element name="Btw_nr" type="xs:string" minOccurs="0" /> 
+  <xs:element name="Organisatie_persoon_code" type="xs:string" minOccurs="0" /> 
+  <xs:element name="Organisatietype" type="xs:string" minOccurs="0" /> 
+  <xs:element name="Adres_Adres_ID" type="xs:long" minOccurs="0" /> 
+  <xs:element name="Adres_Postbusadres" type="xs:boolean" minOccurs="0" /> 
+  <xs:element name="Adres_Toev_voor_straat" type="xs:string" minOccurs="0" /> 
+  <xs:element name="Adres_Straat" type="xs:string" minOccurs="0" /> 
+  <xs:element name="Adres_Huisnummer" type="xs:long" minOccurs="0" /> 
+  <xs:element name="Adres_Toev_aan_huisnr" type="xs:string" minOccurs="0" /> 
+  <xs:element name="Adres_Postcode" type="xs:string" minOccurs="0" /> 
+  <xs:element name="Adres_Woonplaats" type="xs:string" minOccurs="0" /> 
+  <xs:element name="Adres_Land" type="xs:string" minOccurs="0" /> 
+  <xs:element name="Postadres_Postadres_ID" type="xs:long" minOccurs="0" /> 
+  <xs:element name="Postadres_Postbusadres" type="xs:boolean" minOccurs="0" /> 
+  <xs:element name="Postadres_Toev_voor_straat" type="xs:string" minOccurs="0" /> 
+  <xs:element name="Postadres_Straat" type="xs:string" minOccurs="0" /> 
+  <xs:element name="Postadres_Huisnummer" type="xs:long" minOccurs="0" /> 
+  <xs:element name="Postadres_Toev_aan_huisnr" type="xs:string" minOccurs="0" /> 
+  <xs:element name="Postadres_Postcode" type="xs:string" minOccurs="0" /> 
+  <xs:element name="Postadres_Woonplaats" type="xs:string" minOccurs="0" /> 
+  <xs:element name="Postadres_Land" type="xs:string" minOccurs="0" /> 
+  <xs:element name="Aangemaakt_op" type="xs:dateTime" minOccurs="0" /> 
+  <xs:element name="Gewijzigd_op" type="xs:dateTime" minOccurs="0" /> 
+  </xs:sequence>
+  </xs:complexType>
+  </xs:element>
+  </xs:choice>
+  </xs:complexType>
+  </xs:element>
+  </xs:schema>
+  <DIBIS_Organisaties>
+  <Organisatie_persoon_intern_nr>949</Organisatie_persoon_intern_nr> 
+  <Nummer>1000931</Nummer> 
+  <Verkooprelatie_nummer>10569</Verkooprelatie_nummer> 
+  <Naam>The Vincent Hotel</Naam> 
+  <Telefoonnr_werk></Telefoonnr_werk> 
+  <E-mail_werk>r.matsinger@dlr.nl</E-mail_werk> 
+  <Fax_werk>0183-510785</Fax_werk> 
+  <Organisatie_persoon_code>O</Organisatie_persoon_code> 
+  <Organisatietype>Beheerder</Organisatietype> 
+  <Adres_Adres_ID>1262</Adres_Adres_ID>
+  <Adres_Straat>Morsestraat</Adres_Straat> 
+  <Adres_Huisnummer>20a</Adres_Huisnummer> 
+  <Adres_Postcode>1070 BB</Adres_Postcode> 
+  <Adres_Woonplaats>Amsterdam</Adres_Woonplaats> 
+  <Adres_Land>NL</Adres_Land> 
+  <Postadres_Postadres_ID>1262</Postadres_Postadres_ID> 
+  <Postadres_Postbusadres>true</Postadres_Postbusadres> 
+  <Postadres_Straat>Postbus</Postadres_Straat> 
+  <Postadres_Huisnummer>74084</Postadres_Huisnummer> 
+  <Postadres_Postcode>1070 BB</Postadres_Postcode> 
+  <Postadres_Woonplaats>Amsterdam</Postadres_Woonplaats> 
+  <Postadres_Land>NL</Postadres_Land> 
+  <Aangemaakt_op>2014-09-25T08:37:26</Aangemaakt_op> 
+  <Gewijzigd_op>2014-10-28T13:30:02</Gewijzigd_op> 
+  </DIBIS_Organisaties>
+  </AfasGetConnector>
